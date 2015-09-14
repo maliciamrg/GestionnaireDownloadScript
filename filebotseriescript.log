@@ -1,0 +1,173 @@
+Locking /home/david/.filebot/logs/amc.log
+Parameter: animeFormat = /mnt/magneto/videoclub/Series/{n}/Saison {s.pad(2)}/{n} S{s.pad(2)}E{es*.pad(2).join('-E')} ep_{absolute*.pad(3).join('_')} {t}
+Parameter: seriesFormat = /mnt/magneto/videoclub/Series/{n}/Saison {s.pad(2)}/{n} S{s.pad(2)}E{es*.pad(2).join('-E')} ep_{absolute*.pad(3).join('_')} {t}
+Parameter: minFileSize = 30
+Parameter: clean = y
+Parameter: artwork = y
+Argument: /mnt/magneto/videoclub/_Incomplet_series
+Input: /mnt/magneto/videoclub/_Incomplet_series/[ www.CpasBien.pw ] Fear.The.Walking.Dead.S01E02.SUBFRENCH.HDTV.XviD-RUDY.avi
+Input: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E10.HDTV.x264-KILLERS[ettv]/Mr.Robot.S01E10.HDTV.x264-KILLERS.srt
+Input: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E10.HDTV.x264-KILLERS[ettv]/Mr.Robot.S01E10.HDTV.x264-KILLERS.mp4
+Input: /mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Orange Is The New Black S01E12 - Fool Me Once - Ehhhh.srt
+Input: /mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Orange Is The New Black S01E12 - Fool Me Once - Ehhhh.mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E11.WEBRip.x264-2HD/orange.is.the.new.black.s01e11.webrip.x264-2hd.mp4
+Input: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E11.WEBRip.x264-2HD/orange.is.the.new.black.s01e11.webrip.x264-2hd.srt
+Input: /mnt/magneto/videoclub/_Incomplet_series/FTWD.S01E01.WEBDL.720p.x264-PAHE.in.mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/Minority Report-Pilot HDTV XviD-FUM[ettv]/Minority.Report-Pilot.HDTV.XviD-FUM.avi
+Input: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E09.HDTV.x264-DEFiNE[ettv]/Mr.Robot.S01E09.HDTV.x264-DEFiNE.mp4
+Input: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E09.HDTV.x264-DEFiNE[ettv]/Mr.Robot.S01E09.HDTV.x264-DEFiNE.srt
+Input: /mnt/magneto/videoclub/_Incomplet_series/HOTD/[Hiryuu] Highschool of the Dead OVA [BD 1280x720 H264 AAC] [AD11E1F7].mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 11 [720p].mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 10 [720p].mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] High School of the Dead - 01 [720p].mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 03 [720p].mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 04 [720p].mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 09 [720p].mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 06 [720p].mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 08 [720p].mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 12 [720p].mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 02 [720p].mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 05 [720p].mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 07 [720p].mkv
+Input: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E08.WEBRip.x264-2HD/orange.is.the.new.black.s01e08.webrip.x264-2hd.srt
+Input: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E08.WEBRip.x264-2HD/orange.is.the.new.black.s01e08.webrip.x264-2hd.mp4
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E06.WEBRip.x264-2HD/orange.is.the.new.black.s01e06.webrip.x264-2hd.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E06.WEBRip.x264-2HD/www.Torrenting.com.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E06.WEBRip.x264-2HD/First Read This Guide.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E10.HDTV.x264-KILLERS[ettv]/Torrent-Downloaded-From-extratorrent.cc.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E10.HDTV.x264-KILLERS[ettv]/mr.robot.s01e10.hdtv.x264-killers.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E02.HDTV.x264-KILLERS[ettv]/mr.robot.s01e02.hdtv.x264-killers.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E02.HDTV.x264-KILLERS[ettv]/Torrent-Downloaded-From-extratorrent.cc.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Orange.Is.The.New.Black.S01E02.720p.WEBRip.H264-Abjex [PublicHD]/Downloaded From PublicHD.SE.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E09.WEBRip.x264-2HD/www.Torrenting.com.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E09.WEBRip.x264-2HD/orange.is.the.new.black.s01e09.webrip.x264-2hd.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E09.WEBRip.x264-2HD/First Read This Guide.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E07.WEBRip.x264-2HD/Sample/sample-orange.is.the.new.black.s01e07.webrip.x264-2hd.mp4
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E07.WEBRip.x264-2HD/orange.is.the.new.black.s01e07.webrip.x264-2hd.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E07.WEBRip.x264-2HD/www.Torrenting.com.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E07.WEBRip.x264-2HD/First Read This Guide.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Orange Is The New Black Season 1 Media Info - Ehhhh.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Orange Is The New Black Season 1 About The Show - Ehhhh.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Orange Is The New Black Season 1 Episode Guide - Ehhhh.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Wrap - Ehhhh.png
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Screenshot 01.png
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Orange Is The New Black Season 1 Folder Icon - Ehhhh.ico
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Screenshot 03.png
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Postscript 05.png
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Screenshot 02.png
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Screenshot 04.png
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Postscript x264 Ehhhh - Ehhhh.png
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E03.WEBRip.x264-2HD/www.Torrenting.com.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E03.WEBRip.x264-2HD/orange.is.the.new.black.s01e03.webrip.x264-2hd.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E03.WEBRip.x264-2HD/First Read This Guide.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E11.WEBRip.x264-2HD/orange.is.the.new.black.s01e11.webrip.x264-2hd.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E11.WEBRip.x264-2HD/www.Torrenting.com.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E11.WEBRip.x264-2HD/First Read This Guide.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Minority Report-Pilot HDTV XviD-FUM[ettv]/Torrent-Downloaded-From-extratorrent.cc.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E04.WEBRip.x264-2HD/orange.is.the.new.black.s01e04.webrip.x264-2hd.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E04.WEBRip.x264-2HD/www.Torrenting.com.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E04.WEBRip.x264-2HD/First Read This Guide.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E09.HDTV.x264-DEFiNE[ettv]/Torrent-Downloaded-From-extratorrent.cc.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E09.HDTV.x264-DEFiNE[ettv]/mr.robot.s01e09.hdtv.x264-define.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E07.720p.HDTV.x264-KILLERS[rarbg]/RARBG.com.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E07.720p.HDTV.x264-KILLERS[rarbg]/mr.robot.s01e07.720p.hdtv.x264-killers.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E06.HDTV.x264-ASAP[ettv]/Torrent-Downloaded-From-extratorrent.cc.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E06.HDTV.x264-ASAP[ettv]/mr.robot.s01e06.hdtv.x264-asap.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E04.HDTV.x264-KILLERS[ettv]/Torrent-Downloaded-From-extratorrent.cc.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E04.HDTV.x264-KILLERS[ettv]/mr.robot.s01e04.hdtv.x264-killers.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/HOTD/High School of the Dead Vol 06 BD.jpg
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/HOTD/High School of the Dead Vol 04 BD.jpg
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/HOTD/High School of the Dead Vol 2 BD.jpg
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/HOTD/High School of the Dead Vol 05 BD.jpg
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/HOTD/High School of the Dead Vol 3 BD.jpg
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/HOTD/High School of the Dead Vol 02 BD (1080p).jpg
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/HOTD/High School of the Dead Vol 01 BD_.jpg
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E03.HDTV.x264-ASAP[ettv]/Torrent-Downloaded-From-extratorrent.cc.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E03.HDTV.x264-ASAP[ettv]/mr.robot.s01e03.hdtv.x264-asap.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E08.WEBRip.x264-2HD/orange.is.the.new.black.s01e08.webrip.x264-2hd.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E08.WEBRip.x264-2HD/Sample/sample-orange.is.the.new.black.s01e08.webrip.x264-2hd.mp4
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E08.WEBRip.x264-2HD/www.Torrenting.com.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E08.WEBRip.x264-2HD/First Read This Guide.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E08.HDTV.x264-KILLERS[ettv]/Torrent-Downloaded-From-extratorrent.cc.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E08.HDTV.x264-KILLERS[ettv]/mr.robot.s01e08.hdtv.x264-killers.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Orange.Is.The.New.Black.S01E01.720p.WEBRip.H264-Abjex [PublicHD]/Downloaded From PublicHD.SE.txt
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E05.HDTV.x264-KILLERS[ettv]/mr.robot.s01e05.hdtv.x264-killers.nfo
+Exclude: /mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E05.HDTV.x264-KILLERS[ettv]/Torrent-Downloaded-From-extratorrent.cc.txt
+Minority.Report-Pilot.HDTV.XviD-FUM.avi [series: null, movie: Minority Report (2002)]
+Group: [tvs:fear the walking dead] => [[ www.CpasBien.pw ] Fear.The.Walking.Dead.S01E02.SUBFRENCH.HDTV.XviD-RUDY.avi]
+Group: [tvs:mr robot] => [Mr.Robot.S01E10.HDTV.x264-KILLERS.srt, Mr.Robot.S01E10.HDTV.x264-KILLERS.mp4, Mr.Robot.S01E09.HDTV.x264-DEFiNE.mp4, Mr.Robot.S01E09.HDTV.x264-DEFiNE.srt]
+Group: [tvs:orange is the new black] => [Orange Is The New Black S01E12 - Fool Me Once - Ehhhh.srt, Orange Is The New Black S01E12 - Fool Me Once - Ehhhh.mkv, orange.is.the.new.black.s01e11.webrip.x264-2hd.mp4, orange.is.the.new.black.s01e11.webrip.x264-2hd.srt, orange.is.the.new.black.s01e08.webrip.x264-2hd.srt, orange.is.the.new.black.s01e08.webrip.x264-2hd.mp4]
+Group: [tvs:ftwd] => [FTWD.S01E01.WEBDL.720p.x264-PAHE.in.mkv]
+Group: [tvs:null, mov:minority report 2002, anime:null] => [Minority.Report-Pilot.HDTV.XviD-FUM.avi]
+Group: [anime:highschool of the dead] => [[Hiryuu] Highschool of the Dead OVA [BD 1280x720 H264 AAC] [AD11E1F7].mkv, [HorribleSubs] HIGHSCHOOL OF THE DEAD - 11 [720p].mkv, [HorribleSubs] HIGHSCHOOL OF THE DEAD - 10 [720p].mkv, [HorribleSubs] HIGHSCHOOL OF THE DEAD - 03 [720p].mkv, [HorribleSubs] HIGHSCHOOL OF THE DEAD - 04 [720p].mkv, [HorribleSubs] HIGHSCHOOL OF THE DEAD - 09 [720p].mkv, [HorribleSubs] HIGHSCHOOL OF THE DEAD - 06 [720p].mkv, [HorribleSubs] HIGHSCHOOL OF THE DEAD - 08 [720p].mkv, [HorribleSubs] HIGHSCHOOL OF THE DEAD - 12 [720p].mkv, [HorribleSubs] HIGHSCHOOL OF THE DEAD - 02 [720p].mkv, [HorribleSubs] HIGHSCHOOL OF THE DEAD - 05 [720p].mkv, [HorribleSubs] HIGHSCHOOL OF THE DEAD - 07 [720p].mkv]
+Group: [anime:high school of the dead] => [[HorribleSubs] High School of the Dead - 01 [720p].mkv]
+Rename episodes using [TheTVDB]
+Auto-detected query: [Fear The Walking Dead, The Walking Dead]
+Fetching episode data for [Fear the Walking Dead]
+Fetching episode data for [The Walking Dead]
+Fetching episode data for [Talking Dead]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/[ www.CpasBien.pw ] Fear.The.Walking.Dead.S01E02.SUBFRENCH.HDTV.XviD-RUDY.avi] to [/mnt/magneto/videoclub/Series/The Walking Dead/Saison 01/The Walking Dead S01E02 ep_002 Guts.avi]
+Processed 1 files
+Rename episodes using [TheTVDB]
+Auto-detected query: [Mr Robot]
+Fetching episode data for [Mr. Robot]
+Auto-detected query: [Mr Robot]
+Fetching episode data for [Mr. Robot]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E09.HDTV.x264-DEFiNE[ettv]/Mr.Robot.S01E09.HDTV.x264-DEFiNE.mp4] to [/mnt/magneto/videoclub/Series/Mr. Robot/Saison 01/Mr. Robot S01E09 ep_009 eps1.8_m1rr0r1ng.qt.mp4]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E10.HDTV.x264-KILLERS[ettv]/Mr.Robot.S01E10.HDTV.x264-KILLERS.mp4] to [/mnt/magneto/videoclub/Series/Mr. Robot/Saison 01/Mr. Robot S01E10 ep_010 eps1.9_zer0-day.avi.mp4]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E09.HDTV.x264-DEFiNE[ettv]/Mr.Robot.S01E09.HDTV.x264-DEFiNE.srt] to [/mnt/magneto/videoclub/Series/Mr. Robot/Saison 01/Mr. Robot S01E09 ep_009 eps1.8_m1rr0r1ng.qt.srt]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/Mr.Robot.S01E10.HDTV.x264-KILLERS[ettv]/Mr.Robot.S01E10.HDTV.x264-KILLERS.srt] to [/mnt/magneto/videoclub/Series/Mr. Robot/Saison 01/Mr. Robot S01E10 ep_010 eps1.9_zer0-day.avi.srt]
+Processed 4 files
+Rename episodes using [TheTVDB]
+Auto-detected query: [Orange Is The New Black]
+Fetching episode data for [Orange Is the New Black]
+Auto-detected query: [Orange Is The New Black]
+Fetching episode data for [Orange Is the New Black]
+Skipped [/mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Orange Is The New Black S01E12 - Fool Me Once - Ehhhh.srt] because [/mnt/magneto/videoclub/Series/Orange Is the New Black/Saison 01/Orange Is the New Black S01E12 ep_012 Fool Me Once.srt] already exists
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E08.WEBRip.x264-2HD/orange.is.the.new.black.s01e08.webrip.x264-2hd.srt] to [/mnt/magneto/videoclub/Series/Orange Is the New Black/Saison 01/Orange Is the New Black S01E08 ep_008 Moscow Mule.srt]
+Skipped [/mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E11.WEBRip.x264-2HD/orange.is.the.new.black.s01e11.webrip.x264-2hd.srt] because [/mnt/magneto/videoclub/Series/Orange Is the New Black/Saison 01/Orange Is the New Black S01E11 ep_011 Tall Men with Feelings.srt] already exists
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/Orange Is The New Black S01E12 x264 [MKV,AC3] Ehhhh/Orange Is The New Black S01E12 - Fool Me Once - Ehhhh.mkv] to [/mnt/magneto/videoclub/Series/Orange Is the New Black/Saison 01/Orange Is the New Black S01E12 ep_012 Fool Me Once.mkv]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E08.WEBRip.x264-2HD/orange.is.the.new.black.s01e08.webrip.x264-2hd.mp4] to [/mnt/magneto/videoclub/Series/Orange Is the New Black/Saison 01/Orange Is the New Black S01E08 ep_008 Moscow Mule.mp4]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/[ www.Torrenting.com ] - Orange.Is.the.New.Black.S01E11.WEBRip.x264-2HD/orange.is.the.new.black.s01e11.webrip.x264-2hd.mp4] to [/mnt/magneto/videoclub/Series/Orange Is the New Black/Saison 01/Orange Is the New Black S01E11 ep_011 Tall Men with Feelings.mp4]
+Processed 6 files
+Rename episodes using [TheTVDB]
+Auto-detected query: [FTWD]
+Rename movies using [TheMovieDB]
+Auto-detect movie from context: [/mnt/magneto/videoclub/_Incomplet_series/Minority Report-Pilot HDTV XviD-FUM[ettv]/Minority.Report-Pilot.HDTV.XviD-FUM.avi]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/Minority Report-Pilot HDTV XviD-FUM[ettv]/Minority.Report-Pilot.HDTV.XviD-FUM.avi] to [/mnt/magneto/videoclub/Series/Movies/Minority Report (2002)/Minority Report (2002).avi]
+Processed 1 files
+Rename episodes using [AniDB]
+Auto-detected query: [Highschool of the Dead]
+Fetching episode data for [Gakuen Mokushiroku: High School of the Dead]
+Stripping invalid characters from new path: /mnt/magneto/videoclub/Series/High School of the Dead/Saison /High School of the Dead SE01 ep_001 Spring of the Dead
+Stripping invalid characters from new path: /mnt/magneto/videoclub/Series/High School of the Dead/Saison /High School of the Dead SE02 ep_002 Escape from the Dead
+Stripping invalid characters from new path: /mnt/magneto/videoclub/Series/High School of the Dead/Saison /High School of the Dead SE03 ep_003 Democracy Under the Dead
+Stripping invalid characters from new path: /mnt/magneto/videoclub/Series/High School of the Dead/Saison /High School of the Dead SE04 ep_004 Running in the Dead
+Stripping invalid characters from new path: /mnt/magneto/videoclub/Series/High School of the Dead/Saison /High School of the Dead SE05 ep_005 Streets of the Dead
+Stripping invalid characters from new path: /mnt/magneto/videoclub/Series/High School of the Dead/Saison /High School of the Dead SE06 ep_006 In the Dead of the Night
+Stripping invalid characters from new path: /mnt/magneto/videoclub/Series/High School of the Dead/Saison /High School of the Dead SE07 ep_007 Dead Night and the Dead Ruck
+Stripping invalid characters from new path: /mnt/magneto/videoclub/Series/High School of the Dead/Saison /High School of the Dead SE08 ep_008 The Dead Way Home
+Stripping invalid characters from new path: /mnt/magneto/videoclub/Series/High School of the Dead/Saison /High School of the Dead SE09 ep_009 The Sword and Dead
+Stripping invalid characters from new path: /mnt/magneto/videoclub/Series/High School of the Dead/Saison /High School of the Dead SE10 ep_010 The Dead`s House Rules
+Stripping invalid characters from new path: /mnt/magneto/videoclub/Series/High School of the Dead/Saison /High School of the Dead SE11 ep_011 Dead Storm Rising
+Stripping invalid characters from new path: /mnt/magneto/videoclub/Series/High School of the Dead/Saison /High School of the Dead SE12 ep_012 All Dead`s Attack
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/HOTD/[Hiryuu] Highschool of the Dead OVA [BD 1280x720 H264 AAC] [AD11E1F7].mkv] to [/mnt/magneto/videoclub/Series/High School of the Dead/Saison/High School of the Dead SE01 ep_001 Spring of the Dead.mkv]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 02 [720p].mkv] to [/mnt/magneto/videoclub/Series/High School of the Dead/Saison/High School of the Dead SE02 ep_002 Escape from the Dead.mkv]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 03 [720p].mkv] to [/mnt/magneto/videoclub/Series/High School of the Dead/Saison/High School of the Dead SE03 ep_003 Democracy Under the Dead.mkv]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 04 [720p].mkv] to [/mnt/magneto/videoclub/Series/High School of the Dead/Saison/High School of the Dead SE04 ep_004 Running in the Dead.mkv]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 05 [720p].mkv] to [/mnt/magneto/videoclub/Series/High School of the Dead/Saison/High School of the Dead SE05 ep_005 Streets of the Dead.mkv]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 06 [720p].mkv] to [/mnt/magneto/videoclub/Series/High School of the Dead/Saison/High School of the Dead SE06 ep_006 In the Dead of the Night.mkv]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 07 [720p].mkv] to [/mnt/magneto/videoclub/Series/High School of the Dead/Saison/High School of the Dead SE07 ep_007 Dead Night and the Dead Ruck.mkv]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 08 [720p].mkv] to [/mnt/magneto/videoclub/Series/High School of the Dead/Saison/High School of the Dead SE08 ep_008 The Dead Way Home.mkv]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 09 [720p].mkv] to [/mnt/magneto/videoclub/Series/High School of the Dead/Saison/High School of the Dead SE09 ep_009 The Sword and Dead.mkv]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 10 [720p].mkv] to [/mnt/magneto/videoclub/Series/High School of the Dead/Saison/High School of the Dead SE10 ep_010 The Dead`s House Rules.mkv]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 11 [720p].mkv] to [/mnt/magneto/videoclub/Series/High School of the Dead/Saison/High School of the Dead SE11 ep_011 Dead Storm Rising.mkv]
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] HIGHSCHOOL OF THE DEAD - 12 [720p].mkv] to [/mnt/magneto/videoclub/Series/High School of the Dead/Saison/High School of the Dead SE12 ep_012 All Dead`s Attack.mkv]
+Processed 12 files
+Rename episodes using [AniDB]
+Auto-detected query: [High School of the Dead]
+Fetching episode data for [Gakuen Mokushiroku: High School of the Dead]
+Stripping invalid characters from new path: /mnt/magneto/videoclub/Series/High School of the Dead/Saison /High School of the Dead SE01 ep_001 Spring of the Dead
+[TEST] Rename [/mnt/magneto/videoclub/_Incomplet_series/HOTD/[HorribleSubs] High School of the Dead - 01 [720p].mkv] to [/mnt/magneto/videoclub/Series/High School of the Dead/Saison/High School of the Dead SE01 ep_001 Spring of the Dead.mkv]
+Processed 1 files
+Done ヾ(＠⌒ー⌒＠)ノ

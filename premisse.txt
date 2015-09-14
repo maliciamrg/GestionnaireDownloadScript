@@ -1,0 +1,9 @@
+rm ~/.filebot/history.xml
+
+sudo filebot -script fn:amc --output  "/mnt/magneto/videoclub/Film" --log-file amc.log --action move "/mnt/magneto/videoclub/Film/_incomplet" -non-strict --def movieFormat="/mnt/magneto/videoclub/Film/{n.replaceAll(/[:]/,'')} ({y})/{n.replaceAll(/[:]/,'')} ({y}, {director}) {vf} {af}" --def subtitles=en,fr --def ut_label=movie --def clean=y --def artwork=y
+
+sudo filebot -script fn:amc --output  "/mnt/magneto/videoclub/Series" --log-file amc.log --action test "/mnt/magneto/videoclub/_Incomplet_series" -non-strict --def animeFormat="/mnt/magneto/videoclub/Series/{n}/Saison {s.pad(2)}/{n} S{s.pad(2)}E{es*.pad(2).join('-E')} ep_{absolute*.pad(3).join('_')} {t}" seriesFormat="/mnt/magneto/videoclub/Series/{n}/Saison {s.pad(2)}/{n} S{s.pad(2)}E{es*.pad(2).join('-E')} ep_{absolute*.pad(3).join('_')} {t}"  --def minFileSize=30 --def clean=y --def artwork=y  --conflict override
+
+fichier txt avec le nom de la series dans le repertoire de la serie (addserie)
+
+cd "/mnt/magneto/videoclub/Series/The Walking Dead/"; sudo filebot -script /mnt/diablo/kitchen/source_code/MissingEpisodes/MissingEpisodes.groovy "/mnt/magneto/videoclub/Series/The Walking Dead/" "The Walking Dead.txt" > "The Walking Dead.csv"
