@@ -21,6 +21,8 @@ public class Main {
 			Param.ChargerParametrage();
 			String lineEp = args[0];
 			String pathdelabibliothequesdelaserie = args[1];
+			String pathstart = args[2];
+			String pathinconnu = args[3];
 			if (lineEp.startsWith("[TEST] Rename")) {
 				String[] spl = lineEp.substring(15, lineEp.length() - 1).split("\\] to \\[");
 				String destmod;
@@ -28,13 +30,15 @@ public class Main {
 				destmod = correctiondestination(spl[0], spl[1], pathdelabibliothequesdelaserie);
 
 				if (destmod.equals(spl[1])) {
-					Ssh.moveFile(spl[0], destmod);
-					System.out.println("deplacement:" + spl[0]);
+					System.out.println("accord pour :" + spl[0]);
 					System.out.println("vers:" + destmod);
 				} else {
+					String destinc = spl[0].replace(pathstart, pathinconnu);
+					Ssh.moveFile(spl[0], destinc);
 					System.out.println("contradiction pour :" + spl[0]);
 					System.out.println("filebot:" + spl[1]);
 					System.out.println("perso  :" + destmod);
+					System.out.println("stock  :" + destinc);
 				}
 			}
 		} catch (NumberFormatException | SQLException | InterruptedException | IOException | ParseException | JSchException e) {
